@@ -1,0 +1,42 @@
+html,
+body{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: linear-gradient(#2E3192 , #1BFFFF);
+    border: 10px black;
+}
+
+.wrapper {
+    position: relative;
+    gap: 12px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+
+    justify-content: center;
+ }
+
+.grid-item1 {
+    display: flex;
+    justify-content: center;
+} 
+
+.grid-item2 {
+    width: 50%;
+    padding: 35px;
+    border: 5px solid transparent;
+    background-color: white;
+    border-radius: 25px; 
+    text-align: center;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+

@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html>
+<body>
+   <p id='add'>Click to trigger a function that will output "Hello World":</p>  
+  <button id='remove'>Click me</button>  <p id="demo"></p>
+  <script> 
+   document.getElementById("add").addEventListener('click', function (event) 
+               { insertText('wael','houry'); }); 
+                document.getElementById("remove").addEventListener('click', function (event) 
+                { removeText(); });  
+               
+               function insertText(text1, text2) 
+{   document.getElementById("demo").innerHTML = text1 + text2; } 
+ function removeText()
+  {   document.getElementById("demo").innerHTML = ""; }
+    </script>  
+    </body> 
+    </html>
